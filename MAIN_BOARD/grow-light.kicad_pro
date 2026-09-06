@@ -86,14 +86,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|155000000|78526250|9b6d7379-33c7-42f4-8953-8a7515d0aa56|057fd110-a3b6-4aaa-a839-1c0425a15b45",
-          "Dont care"
-        ],
-        [
-          "silk_edge_clearance|155000000|79093750|9b6d7379-33c7-42f4-8953-8a7515d0aa56|2ee4c68e-5402-4023-bc79-dd2ec8714038",
-          "Dont Care"
-        ],
-        [
           "starved_thermal|117140000|84970000|1c1ffdc5-47a1-4f63-a883-1c361f0f14e5|4db68ceb-d99f-469d-a209-fb22c4689518|F.Cu",
           ""
         ],

@@ -1,4 +1,4 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "D1, D10, D11, D12, D14, D15, D16, D17, D19, D2, D20, D3, D4, D6, D7, D9",LED-SMD_L3.0-W3.0-RD-1,16,4000K,C17398997
 "D13, D18, D5, D8",LED-SMD_3P-L3.5-W3.5-RD-C,4,660nm,C2833507
-J1,IDC-Header_2x04_P2.54mm_Vertical_SMD,1,Conn_02x04_Odd_Even,
+J1,PinHeader_2x04_P2.54mm_Vertical_SMD,1,Conn_02x04_Odd_Even,

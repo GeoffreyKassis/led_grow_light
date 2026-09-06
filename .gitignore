@@ -35,6 +35,9 @@ __pycache__/
 .history/
 .review-tmp/
 .agents/
+mcp_proxy.py
+mcp_proxy.log
+MAIN_BOARD/grow-light.png
 .DS_Store
 Thumbs.db
 desktop.ini
