@@ -1,0 +1,6 @@
+# Loaded from the project working directory by Konnect.
+# eager_toolsets is required for Grok: it caches the first tools/list and
+# never picks up tools added later by load_toolset.
+eager_toolsets = true
+kicad_cli = "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe"
+ipc_socket_path = "ipc://C:\\users\\geoff\\appdata\\local\\temp\\kicad\\api.sock"

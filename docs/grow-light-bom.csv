@@ -1,0 +1,37 @@
+Assembly,Designators,Qty,Description,Manufacturer,MPN,LCSC_JLC_Part,Class,Footprint,Notes
+LED panel,D1-D4 D6 D7 D9-D12 D14-D17 D19 D20,16,4000 K white LED,Cree LED,JK3030AWT-P-U40EA0000-N0000001,C17398997,LCSC,3030,"Schematic value 4000K; LCSC not on LED sheet. Previously qualified. Drive at ~0.244 A."
+LED panel,D5 D8 D13 D18,4,660 nm deep-red LED,Silverlight,M3535N1IRG6U12-660NM,C2833507,LCSC,3535-3P,"Schematic value 660nm; LCSC not on LED sheet. Previously qualified. Drive at ~0.244 A."
+LED panel,J1,1,2x4 IDC header SMD vertical,Generic,IDC-2x4-P2.54-SMD,,Manual,IDC-Header_2x04_P2.54mm_Vertical_SMD,Mates with main-board J1.
+Controller,J2,1,USB-C receptacle 16-pin,Generic,USB-TYPE-C-16P,C2927039,Extended,TYPE-C-SMD_HX-TYPE-C-16PIN,Power + CC only.
+Controller,U1,1,USB-PD 3.0 sink controller,Hynetek,HUSB238_xxxDD,C7471904,Extended,WDFN-10-1EP 3x3mm,"I2C to U2. MCU must request 9 V or 12 V PDO. LCSC not on symbol; C7471904 is the prior HUSB238_002DD."
+Controller,U3,1,2-channel ESD protector,STMicroelectronics,USBLC6-2SC6,C7519,Basic,SOT-23-6,Protect CC1 and CC2 only; place at J2.
+Controller,F1,1,3 A / 24 V PTC resettable fuse,Generic,3A/24V-1812,C7500481,Extended,1812,Immediately after USB-C VBUS.
+Controller,D7,1,24 V unidirectional TVS,hongjiacheng,SMAJ24A,C19077541,Preferred,SMA,VBUS surge clamp.
+Controller,Q1,1,30 V P-channel MOSFET,Alpha & Omega Semiconductor,AO3401A,C15127,Basic,SOT-23,PD-controlled load switch.
+Controller,D8,1,10 V gate-source zener,hongjiacheng,BZX84C10,C19077470,Preferred,SOT-23,Clamp Q1 VGS.
+Controller,R1,1,10 ohm 1% GATE series,UNI-ROYAL,0805W8F100JT5E,C17415,Basic,0805,HUSB238 GATE series resistor.
+Controller,R2,1,49.9 kohm 1%,UNI-ROYAL,0805W8F4992T5E,C17719,Preferred,0805,HUSB238 VSET typical-app resistor; not a datasheet tap. Firmware sets PDO.
+Controller,R3,1,5.1 kohm 1%,UNI-ROYAL,0805W8F5101T5E,C27834,Basic,0805,HUSB238 ISET typical-app resistor (~1.5 A).
+Controller,C1 C16,2,1 uF 50 V X5R,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Basic,0603,HUSB238 / local 50 V ceramics.
+Controller,C6 C7,2,10 uF 50 V X5R,Samsung Electro-Mechanics,CL31A106KBHNNNE,C13585,Basic,1206,Bulk input ceramics.
+Controller,C17 C18,2,100 nF 50 V X7R,YAGEO,CC0603KRX7R9BB104,C14663,Basic,0603,Decoupling.
+Controller,U7,1,3.3 V 100 mA LDO,Holtek,HT7533-1,C14289,Basic,SOT-89-3,MCU rail from switched VIN. VIN abs max 30 V.
+Controller,U2,1,STM8 8-bit MCU 8 KB Flash,STMicroelectronics,STM8S003F3P6TR,C52717,Preferred,TSSOP-20,I2C to U1; PWM on PC6 to driver CTRL; S1/S2; UART; SWIM.
+Controller,S1 S2,2,Tactile button 160 gf SPST,XKB Connectivity,TS-1187A-B-A-B,C318884,Basic,5.1 mm SMD,S1=PD3 S2=PD4.
+Controller,D5,1,Red 0805 indicator LED,Foshan NationStar,NCD0805R1,C84256,Basic,0805,Status.
+Controller,D6,1,Green 0805 indicator LED,Hubei KENTO,KT-0805G,C2297,Basic,0805,Status.
+Controller,R16 R17,2,1 kohm 1%,UNI-ROYAL,0603WAF1001T5E,C21190,Basic,0603,D5/D6 current limit.
+Controller,R8 R11-R14,5,10 kohm 1%,UNI-ROYAL,0805W8F1002T5E,C17414,Basic,0805,Pull-ups (I2C/buttons/CTRL as wired).
+Controller,R9 R10 R15,3,4.7 kohm 1%,UNI-ROYAL,0603WAF4701T5E,C23162,Basic,0603,Pull-ups.
+Controller,J3,1,1x4 programming header,Generic,PinHeader_1x04_P2.54,,Manual,TH 2.54 mm,SWIM / NRST.
+Controller,J4,1,1x4 UART header,Generic,PinHeader_1x04_P2.54,,Manual,TH 2.54 mm,PD5 TX / PD6 RX.
+Controller,J1,1,2x4 IDC header vertical TH,Generic,IDC-2x4-P2.54-TH,,Manual,IDC-Header_2x04_P2.54mm_Vertical,LED harness to panel J1.
+Controller,U4 U5 U11 U12,4,Boost LED driver 3-18 VIN 38 Vout,Texas Instruments,TPS61165DRV,,Extended,WSON-6-1EP 2x2mm,"One per string. 200 mV FB 1.2 MHz. No LCSC on symbol. VIN must stay <= 18 V."
+Controller,L1-L4,4,22 uH shielded power inductor 1.0 A / 1.3 A sat,CENKER,CKCS4030-22uH/M,C354592,Extended,4x4x3.0 mm,Same CKCS family as the old 6x6 C354634. KiCad footprint Inductor_SMD:L_Cenker_CKCS4030. LCSC stock ~1560.
+Controller,D1-D4,4,40 V 1 A Schottky,hongjiacheng,B5819WS,C7420331,Preferred,SOD-323,Freewheel per boost channel.
+Controller,R4-R7,4,820 mOhm current-sense,Generic,0R82-1206,C2907361,Extended,1206,Sets ~0.244 A at 200 mV FB.
+Controller,C2-C5,4,4.7 uF 25 V X5R,Samsung Electro-Mechanics,CL21A475KAQNNNE,C1779,Basic,0805,TPS61165 VIN ceramic per channel.
+Controller,C8-C11,4,1 uF 50 V X5R,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Basic,0603,TPS61165 output ceramic per channel.
+Controller,C19-C22,4,220 nF 25 V X7R,Samsung Electro-Mechanics,CL10B224KA8NNNC,C21120,Basic,0603,TPS61165 COMP per channel.
+Off-board,H1,1,8-conductor harness,Generic,8x24AWG-harness,,Manual,Wire,Four isolated LED-string pairs on 2x4 IDC.
+Off-board,H2,1,Aluminum heatsink and TIM,Generic,Passive-heatsink,,Mechanical,Mechanical,Size by thermal test.

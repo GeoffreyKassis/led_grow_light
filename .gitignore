@@ -1,0 +1,42 @@
+# KiCad temporary / local files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+*.lck
+
+# KiCad auto-backup folders
+*-backups/
+
+# Local KiCad config / 3D models dump (not project source)
+/KiCad/
+
+# Konnect local review dumps
+.konnect/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editor / agent / OS
+.history/
+.review-tmp/
+.agents/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
