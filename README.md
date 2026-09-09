@@ -94,6 +94,12 @@ is already electrically single-layer (all F.Cu, no B.Cu copper, no vias) but
 still declares two copper layers. Set copper layers to **1** before Gerbers
 and order aluminum / 1 layer (typically 1.6 mm, 1 oz, white mask).
 
+The checked-in `LED_BOARD/production/grow-light-LEDS.zip` is deliberately
+plotted as a **front-copper-only** fabrication package. Do not regenerate it
+with KiCad's automatic layer selection while the source board still declares
+two copper layers, or an empty `B_Cu` file will be added and the upload may be
+treated as a two-layer board.
+
 Do **not** JLC-assemble this panel. Fab bare aluminum; populate by hand
 (preheat / hot plate — the core sinks iron heat).
 

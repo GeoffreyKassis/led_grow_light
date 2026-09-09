@@ -1443,7 +1443,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diodes:Schottky,B5819WS,(2)"
+		(symbol "PCM_JLCPCB-Diodes:Schottky,B16WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1466,7 +1466,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "B5819WS"
+			(property "Value" "B16WS"
 				(at 2.032 -1.2122 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1488,7 +1488,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402010510_hongjiacheng-B5819WS_C7420331.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281514_hongjiacheng-B16WS_C7420327.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1499,7 +1499,7 @@
 					)
 				)
 			)
-			(property "Description" "40V Independent Type 1A 600mV@1.0A SOD-323 Schottky Diodes ROHS"
+			(property "Description" "60V Independent Type 700mV@1A 1A SOD-323 Schottky Diodes ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1510,7 +1510,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C7420331"
+			(property "LCSC" "C7420327"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1521,7 +1521,7 @@
 					)
 				)
 			)
-			(property "Stock" "507223"
+			(property "Stock" "308982"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1532,7 +1532,7 @@
 					)
 				)
 			)
-			(property "Price" "0.018USD"
+			(property "Price" "0.021USD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1609,7 +1609,7 @@
 					)
 				)
 			)
-			(property "Part" "B5819WS"
+			(property "Part" "B16WS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1620,7 +1620,7 @@
 					)
 				)
 			)
-			(property "Forward Voltage (Vf@If)" "0.6V@1.0A"
+			(property "Forward Voltage (Vf@If)" "0.7V@1.0A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1631,7 +1631,7 @@
 					)
 				)
 			)
-			(property "Reverse Voltage (Vr)" "40V"
+			(property "Reverse Voltage (Vr)" "60V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1675,7 +1675,7 @@
 					)
 				)
 			)
-			(property "Reverse Leakage Current (Ir)" "1mA@40V"
+			(property "Reverse Leakage Current (Ir)" "100uA@60V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1697,7 +1697,7 @@
 					)
 				)
 			)
-			(symbol "Schottky,B5819WS,(2)_0_1"
+			(symbol "Schottky,B16WS_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
@@ -1723,7 +1723,7 @@
 					)
 				)
 			)
-			(symbol "Schottky,B5819WS,(2)_1_1"
+			(symbol "Schottky,B16WS_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.81)
@@ -5732,6 +5732,274 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,B16WS")
+		(at 151.13 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35734e3e-914c-4ce2-91d6-2461267b3d8e")
+		(property "Reference" "D7"
+			(at 151.4475 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B16WS"
+			(at 151.4475 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(at 151.13 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281514_hongjiacheng-B16WS_C7420327.pdf"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "60V Independent Type 700mV@1A 1A SOD-323 Schottky Diodes ROHS"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420327"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "308982"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.021USD"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "B16WS"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.7V@1.0A"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "60V"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Rectified Current (Io)" "1A"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Single"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Peak forward surge current" "10A"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "100uA@60V"
+			(at 151.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "007ecaea-1972-4275-baf3-5bc3c5a2c091")
+		)
+		(pin "1"
+			(uuid "0fdc6d20-af37-4158-b7ac-e0951dc50827")
+		)
+		(instances
+			(project "grow-light"
+				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/3adfe907-e1bd-4d3b-b416-730ea0a2d42f"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/a54fcf91-0bed-4768-94fc-c09164a02c93"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/e78ed52b-3476-45a2-8931-083d45ba3cb0"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/f078d3db-893a-47de-8020-4a9523bb934a"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 152.4 107.95 0)
 		(unit 1)
@@ -6140,6 +6408,17 @@
 		)
 		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, WSON-6"
 			(at 135.89 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C122568"
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,6 +6991,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "inductor/SMD"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a963f01c-a39a-4887-9020-a3da7d6e3f93")
 		)
@@ -6982,274 +7272,6 @@
 				)
 				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/f078d3db-893a-47de-8020-4a9523bb934a"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:Schottky,B5819WS,(2)")
-		(at 151.13 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa41c402-696a-43c7-b029-373e6cb1f52f")
-		(property "Reference" "D1"
-			(at 151.4475 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819WS"
-			(at 151.4475 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
-			(at 151.13 88.138 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402010510_hongjiacheng-B5819WS_C7420331.pdf"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V Independent Type 1A 600mV@1.0A SOD-323 Schottky Diodes ROHS"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7420331"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "507223"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.018USD"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "B5819WS"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "0.6V@1.0A"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "40V"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Rectified Current (Io)" "1A"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Diode Configuration" "Single"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Peak forward surge current" "10A"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "1mA@40V"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9559e87-de48-440d-9b08-7de4eb9af76e")
-		)
-		(pin "2"
-			(uuid "d3536f59-dd70-4c3e-9252-ad6d37958415")
-		)
-		(instances
-			(project "grow-light"
-				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/3adfe907-e1bd-4d3b-b416-730ea0a2d42f"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/a54fcf91-0bed-4768-94fc-c09164a02c93"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/e78ed52b-3476-45a2-8931-083d45ba3cb0"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/b80b5c16-f7a4-47c8-a66a-ba347146342c/f078d3db-893a-47de-8020-4a9523bb934a"
-					(reference "D2")
 					(unit 1)
 				)
 			)
